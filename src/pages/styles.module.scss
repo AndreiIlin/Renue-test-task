@@ -1,0 +1,32 @@
+.root {
+  padding: 0 40px 40px;
+  background-color: #9b1818;
+  border-radius: 30px;
+}
+
+.title {
+  margin-bottom: 15px;
+  font-family: 'Caveat', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  color: yellow;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.machine_side {
+  flex: 1 1 60%;
+}
+
+.user_side {
+  padding: 20px 20px 10px;
+  flex: 1 1 40%;
+  background: #680b0b;
+  box-shadow: 0 0 5px 2px #400e0e;
+}

@@ -1,0 +1,17 @@
+.title {
+  margin: 10px 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.inventory {
+  height: 170px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 5px;
+  background-color: black;
+  border: 2px solid yellow;
+}

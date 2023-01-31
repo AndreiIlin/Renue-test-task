@@ -1,0 +1,57 @@
+.card {
+  position: relative;
+  width: calc(25% - 10px);
+  font-size: 12px;
+  text-align: center;
+
+  &_inventory {
+    width: calc(25% - 5px);
+    font-size: 10px;
+  }
+
+  &__inventory_count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: yellow;
+    font-size: 14px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__img_container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+    &_inventory {
+      height: 50px;
+    }
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &__title {
+    margin-top: 10px;
+  }
+
+  &_unavailable {
+    width: 200px;
+    padding: 5px;
+    position: absolute;
+    bottom: 45%;
+    left: -25%;
+    border: 3px solid red;
+    transform: rotate(-65deg);
+    background-color: orange;
+    font-size: 14px;
+  }
+}
+
